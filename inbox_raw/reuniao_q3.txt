@@ -1,0 +1,9 @@
+﻿Reuniao de planejamento Q3 - 22/08/2026
+
+Discutimos o roadmap do produto para o terceiro trimestre:
+1. Lancar versao 2.0 do sistema de recomendacao usando aprendizado por reforco.
+2. Migrar pipeline de dados para Kafka e eliminar atraso de 8h nas metricas.
+3. Contratar dois engenheiros de machine learning ate novembro.
+4. Resolver vulnerabilidade critica de JWT com segredo fixo em producao.
+
+Proximos passos: Bruno cria tickets no Jira, Ana lidera arquitetura Kafka.

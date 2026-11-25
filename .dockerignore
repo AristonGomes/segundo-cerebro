@@ -1,0 +1,11 @@
+.venv
+venv
+env
+__pycache__
+*.pyc
+.git
+.env
+obsidian_vault
+backup_processados
+inbox_raw
+service_account.json

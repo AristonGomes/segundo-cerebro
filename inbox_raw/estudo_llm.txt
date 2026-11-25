@@ -1,0 +1,7 @@
+﻿Notas de estudo - Large Language Models
+
+Estudei hoje sobre atencao multi-cabeca (multi-head attention) no paper Attention is All You Need.
+O mecanismo de atencao permite que o modelo pese a importancia de diferentes tokens ao gerar cada saida.
+Transformers superaram RNNs em tarefas de traducao e hoje sao a base de GPT, Gemini e Claude.
+Conceitos-chave: embeddings, positional encoding, softmax, camadas feedforward.
+Quero aprofundar em fine-tuning e RLHF na proxima sessao.

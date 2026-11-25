@@ -1,0 +1,16 @@
+# SDK oficial do Gemini
+google-genai>=2.8.0
+
+# Variaveis de ambiente
+python-dotenv>=1.0.0
+
+# Servidor HTTP / API Serverless (Fase 4 + Vercel Webhook)
+fastapi>=0.115.0
+uvicorn>=0.30.0
+
+# Bot do Telegram (Fases 5 a 9)
+pyTelegramBotAPI>=4.15.0
+requests>=2.31.0
+
+# Monitoramento local de sistema de arquivos (Fase 3)
+watchdog>=6.0.0

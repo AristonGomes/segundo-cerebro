@@ -1,0 +1,18 @@
+﻿# Segredos
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Saidas de teste
+teste_output.md
+
+# Chaves e Segredos
+service_account.json

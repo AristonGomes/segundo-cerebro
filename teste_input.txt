@@ -1,0 +1,13 @@
+﻿Reuniao de planejamento Q3 - 22/08/2026
+
+Discutimos o roadmap do produto para o terceiro trimestre. Os principais pontos foram:
+
+1. Lancar a versao 2.0 do sistema de recomendacao ate setembro. O modelo atual usa filtragem colaborativa, mas queremos migrar para uma abordagem de aprendizado por reforco.
+
+2. Refatorar o pipeline de dados para suportar processamento em tempo real usando Kafka. Hoje dependemos de batches noturnos, o que cria atraso de 8h nas metricas.
+
+3. Contratar dois engenheiros de machine learning. O processo seletivo deve comecar em setembro para ter as pessoas integradas ate novembro.
+
+4. Debito tecnico: a camada de autenticacao usa JWT com segredo fixo em producao — isso e critico e precisa ser resolvido primeiro no proximo sprint.
+
+Proximos passos: Bruno vai criar os tickets no Jira, Ana lidera a arquitetura do Kafka, eu fico responsavel pela especificacao tecnica do novo modelo de recomendacao.
